@@ -1,25 +1,29 @@
-# 🏛️ TITAN TERMINAL PRO
+# TITAN TERMINAL PRO
 **A Bloomberg-style financial analysis terminal powered by local LLMs**
 ![Python](https://img.shields.io/badge/Python-3.11+-blue.svg)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
 ![Ollama](https://img.shields.io/badge/Ollama-Local%20LLMs-orange.svg)
 > Your investment data stays on YOUR machine. No cloud. No API keys. Full privacy.
 ---
-## ✨ Features
+## Vibe Coding Project
+This project was built through **vibe coding** - a collaborative process with **Claude (Anthropic)** AI assistant. Rather than writing every line manually, the development flow involved describing features, iterating on ideas, and letting AI help generate and refine the code.
+*A fun experiment in human-AI pair programming!* 
+
+## Features
 | Module | Description |
 |--------|-------------|
-| 📊 **Company Profile** | Business overview, executives, key statistics |
-| 💰 **Financials** | Income statement, balance sheet, cash flow, ratios |
-| 📈 **Technical Analysis** | ASCII price charts, RSI, MACD, Bollinger Bands, support/resistance |
-| 🏢 **Peer Comparison** | Sector peers with relative valuation metrics |
-| 👔 **Ownership** | Promoter holdings, institutional ownership, short interest |
-| 🎯 **Analyst Ratings** | Price targets, buy/sell recommendations, estimates |
-| 📜 **Options Chain** | Calls/puts, implied volatility, unusual activity |
-| 📰 **News & Sentiment** | Headlines with AI-powered sentiment analysis |
-| 🔗 **Supply Chain** | Suppliers and customers relationship mapping |
-| 🤖 **Multi-Model AI Analysis** | 6 local LLMs analyze in parallel with executive summary |
+| **Company Profile** | Business overview, executives, key statistics |
+|  **Financials** | Income statement, balance sheet, cash flow, ratios |
+|  **Technical Analysis** | ASCII price charts, RSI, MACD, Bollinger Bands, support/resistance |
+|  **Peer Comparison** | Sector peers with relative valuation metrics |
+|  **Ownership** | Promoter holdings, institutional ownership, short interest |
+|  **Analyst Ratings** | Price targets, buy/sell recommendations, estimates |
+|  **Options Chain** | Calls/puts, implied volatility, unusual activity |
+|  **News & Sentiment** | Headlines with AI-powered sentiment analysis |
+|  **Supply Chain** | Suppliers and customers relationship mapping |
+|  **Multi-Model AI Analysis** | 6 local LLMs analyze in parallel with executive summary |
 ---
-## 🔐 Privacy-First Design
+##  Privacy-First Design
 | Component | Where it runs |
 |-----------|---------------|
 | All AI/LLM processing | **100% Local** (Ollama) |
@@ -27,7 +31,7 @@
 | Stock data | Yahoo Finance (public API) |
 Unlike cloud-based solutions, your prompts, analysis, and investment thoughts **never touch external AI servers**.
 ---
-## 🚀 Quick Start
+##  Quick Start
 ### Prerequisites
 1. **Python 3.11+**
 2. **Ollama** - [Install from ollama.ai](https://ollama.ai)
@@ -55,7 +59,7 @@ ollama pull glm4:9b
 python3 titan_terminal.py
 ```
 ---
-## 📸 Screenshots
+##  Screenshots
 ```
 ╭────────────────────────────────────────────────────────────────────────────────╮
 │  🏛️  TITAN TERMINAL PRO   │ Apple Inc. (AAPL) │ $178.25 +2.15 (+1.22%)        │
@@ -70,7 +74,7 @@ python3 titan_terminal.py
 ╰────────────────────────────────────────────────────────────────────────────────╯
 ```
 ---
-## 🧠 AI Models Used
+##  AI Models Used
 The terminal runs **6 local LLMs in parallel** for comprehensive analysis:
 | Model | Strength |
 |-------|----------|
@@ -82,7 +86,7 @@ The terminal runs **6 local LLMs in parallel** for comprehensive analysis:
 | GLM-4 | Alternative perspective |
 Each model provides an independent investment verdict, then a consensus is calculated with an executive summary.
 ---
-## 🌍 Multi-Currency Support
+##  Multi-Currency Support
 Automatically detects and displays correct currency symbols:
 - 🇺🇸 USD ($) for US stocks
 - 🇮🇳 INR (₹) for Indian stocks (.NS, .BO)
@@ -90,7 +94,7 @@ Automatically detects and displays correct currency symbols:
 - 🇬🇧 GBP (£) for UK stocks
 - And more...
 ---
-## 📁 Project Structure
+##  Project Structure
 ```
 Finance_Terminal/
 ├── titan_terminal.py      # Main entry point
@@ -113,20 +117,20 @@ Finance_Terminal/
 └── watchlist.json         # Your saved stocks
 ```
 ---
-## 🛠️ Tech Stack
+##  Tech Stack
 - **Python 3.11** - Core language
 - **Rich** - Beautiful terminal UI
 - **yfinance** - Yahoo Finance data
 - **Ollama** - Local LLM inference
 - **pandas/numpy** - Data processing
 ---
-## 📄 License
+##  License
 MIT License - See [LICENSE](LICENSE) for details.
 ---
-## 🤝 Contributing
+##  Contributing
 Contributions welcome! Please read the contributing guidelines before submitting PRs.
 ---
-## ⚠️ Disclaimer
+## Disclaimer
 This tool is for informational purposes only. Not financial advice. Always do your own research before making investment decisions.
 ---
 **Built with ❤️ for privacy-conscious investors**
